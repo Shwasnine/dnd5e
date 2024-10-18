@@ -1,0 +1,52 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  
+
+  --bs-body-color: rgba(255, 255, 255, 0.87);
+  --bs-body-bg: #000;
+
+  --cor-primaria: #1ED760;
+
+  --bx-bg: hsl(180deg, 5%, 7%);
+  --bx-radius: 8px;
+
+  --bs-emphasis-color: var(--cor-primaria);
+}
+
+.sidebar,
+.main__content,
+.page__grid {
+  overflow: auto;
+  height: 100%;
+}
+
+.page__title{
+  font-weight: 700;
+  span {
+    background: linear-gradient(45deg, #1ED760, #4376e5);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.callout {
+  --callout-border-bg: rgba(255,255,255,.1);
+  --callout-border-color: rgba(255,255,255,.2);
+  --callout-border: 5px solid var(--callout-border-color);
+  --callout-padding: 1rem;
+  --callout-radius: 1rem;
+
+  background: var(--callout-border-bg);
+  padding: var(--callout-padding);
+  border-left: var(--callout-border);
+  border-radius: var(--callout-radius);
+  margin-bottom: 1rem;
+}

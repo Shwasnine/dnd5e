@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Aarakocra",
+        "habilidade": "Lineage",
+        "tipo": "Humanoide",
+        "tamanho": "Médio",
+        "fonte": "MPMM",
+        "descricao": "aarakocra.html",
+        "path": "/especies/aarakocra"
+    },
+    {
+        "name": "Aasimar",
+        "habilidade": "Nenhum",
+        "tipo": "Humanoide",
+        "tamanho": "Médio",
+        "fonte": "PHB",
+        "descricao": "aasimar.html",
+        "path": "/especies/aasimar"
+    }
+]

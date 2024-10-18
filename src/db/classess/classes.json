@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Artificer",
+        "icon": "fas fa-tools",
+        "fonte": "TCE",
+        "path": "/classes/artificer",
+        "content": "/db/classes/artifice/index.html",
+        "resumo": "/db/classes/artifice/resumo.html",
+        "subclasses": [
+            {
+                "name": "Alquimista",
+                "content": "/db/classes/artifice/alquimista.html",
+                "path": "/classes/artificer/alquimista"
+            },
+            {
+                "name": "Armeiro",
+                "content": "/db/classes/artifice/armeiro.html",
+                "path": "/classes/artificer/armeiro"
+            },
+            {
+                "name": "Ferreiro de Batalha",
+                "content": "/db/classes/artifice/ferreiro-de-batalha.html",
+                "path": "/classes/artificer/ferreiro-de-batalha"
+            }
+        ]
+    }
+]
